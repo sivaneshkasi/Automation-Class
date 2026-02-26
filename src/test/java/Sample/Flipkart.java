@@ -27,7 +27,7 @@ public class Flipkart {
 		String currenturl = wd.getCurrentUrl();
 		System.out.println(currenturl);
 		
-		WebElement username = wd.findElement(By.xpath("(//form[@autocomplete='on']"));
+		WebElement username = wd.findElement(By.xpath("(//input[@type=\"text\"])[2]"));
 		username.sendKeys("sivanesh_kasi");
 		
 		//WebElement pass = wd.findElement(By.xpath("//input[@name='pass']"));

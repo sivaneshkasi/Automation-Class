@@ -45,7 +45,7 @@ public class Testingmine {
 		List<String> l = new ArrayList(allUrl);
 		Thread.sleep(1000);
 		w.switchTo().window(l.get(3));
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		w.switchTo().window(parent);
 		
 //		for(String x : allUrl) {

@@ -1,8 +1,4 @@
-package Sample;
-
-public class DemoCheckgit {
-
-	public static void main(String[] args) {
+p
 		
 		git config --global user.email sivaneshkasi@gmail.com
 		git config --global user.name sivaneshkasi
